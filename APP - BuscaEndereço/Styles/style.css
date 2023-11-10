@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 45px;
+    padding-bottom: 15px;
+    background-color: #F0F8FF;
+    opacity: 0.7;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores{
+    margin-top: 20px;
+    text-align: center;
+}
+
+input{
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.busca button{
+    padding: 15px;
+    border-radius: 5px  ;
+}
+
+.troca{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-troca{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}

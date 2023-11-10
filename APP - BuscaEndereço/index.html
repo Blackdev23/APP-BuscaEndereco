@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca por CEP</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="busca">
+            <input type="text" class="input-uf" placeholder="Digite a UF">
+            <input type="text" class="input-cidade" placeholder="Digite a Cidade">
+            <input type="text" class="input-logradouro" placeholder="Digite o Logradouro">
+            <button class="btn" onclick="CliqueBotao()">Buscar</button>
+            <button class="btn" onclick="LimparFormulario()">Limpar</button>
+            <hr style="margin-top: 20px;">
+    
+    
+        <section class="form">
+            <div class="valores">
+                <label>CEP:</label><br>
+                <input type="text" class="value-cep" readonly>
+            </div>
+            
+        </section>
+
+        <div class="troca">
+            <a href="/Pages/buscacep.html"><button class="btn-troca">Buscar Por CEP</button></a>
+        </div>
+        
+    </div>
+    <script src="/Scripts/scriptend.js"></script>
+</body>
+</html>

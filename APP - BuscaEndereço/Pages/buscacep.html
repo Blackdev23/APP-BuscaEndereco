@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca por CEP</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="busca">
+            <input type="text" class="input-cep" placeholder="Digite um CEP">
+            <button class="btn" onclick="CliqueBotao()">Buscar</button>
+            <button class="btn" onclick="LimparFormulario()">Limpar</button>
+            <hr style="margin-top: 20px;">
+    
+    
+        <section class="form">
+            <div class="valores">
+                <label>Logradouro:</label><br>
+                <input type="text" class="value-logradouro" readonly>
+            </div>
+            
+            <div class="valores">
+                <label>Bairro:</label><br>
+                <input type="text" class="value-bairro" readonly>
+            </div>
+            
+            <div class="valores">
+                <label>Localidade:</label><br>
+                <input type="text" class="value-localidade" readonly>    
+            </div>
+            
+            <div class="valores">
+                <Label>UF:</Label><br>
+                <input type="text" class="value-uf" readonly>
+            </div>
+            
+            <div class="valores">
+                <label>DDD: </label><br>
+                <input type="text" class="value-ddd" readonly>
+            </div>
+        </section>
+
+        <div class="troca">
+            <a href="/index.html"><button class="btn-troca">Buscar Por Endereço</button></a>
+        </div>
+        
+    </div>
+    <script src="/Scripts/script.js"></script>
+</body>
+</html>
